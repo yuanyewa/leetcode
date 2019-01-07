@@ -12,7 +12,7 @@ func twoSum(nums []int, target int) []int {
 		if _, ok := seen[need]; !ok {
 			seen[k] = i
 		} else {
-			return []int{seen[need], i}
+			return []int{s09een[need], i}
 		}
 	}
 	return nil
